@@ -1,0 +1,7 @@
+{
+  "name": "Simple Pan",
+  "version": "1.0",
+  "description": "Intuitive webpage panning with the mouse.",
+  "icons": { "48": "icon48.png", "128" : "icon128.png" },
+  "content_scripts": [{"matches": ["<all_urls>"], "js": ["simple-pan.js"]}]
+}
